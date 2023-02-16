@@ -1,0 +1,7 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#carAdminTable { width: 100%; }
+#carAdminTable td { text-align: center !important; }
+#carAdminTable, #carAdminTable th, #carAdminTable td { border:1px solid black; }

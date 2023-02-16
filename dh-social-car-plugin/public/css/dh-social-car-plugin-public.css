@@ -1,0 +1,165 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#register_form fieldset:not(:first-of-type) {
+display: none;
+}
+* {
+box-sizing: border-box;
+}
+
+body {
+background-color: #f1f1f1;
+}
+
+#regForm {
+background-color: #ffffff;
+background-color: #bbbbbb;
+margin: 100px auto;
+font-family: Raleway;
+padding: 40px;
+width: 70%;
+min-width: 300px;
+}
+
+h1 {
+text-align: center;  
+}
+
+input {
+padding: 10px;
+width: 100%;
+font-size: 17px;
+font-family: Raleway;
+border: border, 1px solid red;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+background-color: #ffdddd;
+}
+
+input.invalid {
+background-color: #ffdddd;
+border: border, 1px solid red; 
+}
+
+/* Hide all steps by default: */
+.tab {
+display: none;
+}
+
+button {
+background-color: #04AA6D;
+color: #ffffff;
+/*border: none;*/
+padding: 10px 20px;
+font-size: 17px;
+font-family: Raleway;
+cursor: pointer;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+#prevBtn {
+background-color: #18181a;
+text-shadow: ghostwhite;
+}
+
+#nextBtn {
+background-color: #18181a;
+text-shadow: ghostwhite;
+}
+
+
+/* Make circles that indicate the steps of the form: */
+.step {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #18181a;
+/*border: none;  */
+border-radius: 50%;
+display: inline-block;
+opacity: 0.5;
+}
+
+.step.active {
+opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+background-color: #04AA6D;
+}
+input#yourid:focus {outline: unset!important;} 
+input#yourname:focus {outline: unset!important;}
+input#youremail:focus {outline: unset!important;}
+input#yourtelephone:focus {outline: unset!important;}
+input#youraddress:focus {outline: unset!important;}
+input#prevBtn:focus {outline: unset!important;}
+input#nextBtn:focus {outline: unset!important;}
+
+/* Style the form */
+#regForm {
+background-color: #ffffff;
+background-color: #bbbbbb;
+margin: 100px auto;
+padding: 40px;
+width: 70%;
+min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+padding: 10px;
+width: 100%;
+font-size: 17px;
+font-family: Raleway;
+border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+background-color: #ffdddd;
+"border","1px solid red"
+}
+
+/* Hide all steps by default: */
+.tab {
+display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbbbbb;
+border: none;
+border-radius: 50%;
+display: inline-block;
+opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+background-color: #04AA6D;
+}
+#dh_form {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+#dh_form select {
+  height: 42px;
+}
+.dhcar_mainh3 { text-align: center; }
